@@ -1,23 +1,30 @@
-# Shake & Gemini
+היי חברים\! 👋 כאן מדריך קצר ופשוט שיסביר לכם שלב אחר שלב איך להתקין את תוסף הכרום מהקובץ שבגיטהאב (GitHub) ישירות לדפדפן שלכם. 🛠️✨
 
-Chrome Manifest V3 extension that opens Gemini from any page after a quick mouse shake, in a clean popup window placed next to the current tab.
+## **🛠️ שלב 1: הורדת התוסף מגיטהאב**
 
-## Features
+1. היכנסו לקישור של הגיטהאב שקיבלתם.  
+2. חפשו כפתור ירוק שכתוב עליו **`Code`** (הוא נמצא בחלק העליון הימני של רשימת הקבצים) ולחצו עליו.  
+3. בתפריט שנפתח, לחצו על **`Download ZIP`**. 📦  
+4. הקובץ יירד למחשב שלכם כקובץ דחוס (ZIP).
 
-- Activation by a sustained mouse shake or a long Space key press.
-- Floating Gemini action button that stays open until Escape, click, or a fast-dismiss gesture.
-- Page focus mode with text/image highlight actions for copying text or images before opening Gemini.
-- Split-window layout using the screen work area: the current Chrome window is placed on the left and a clean Gemini popup is placed on the right.
-- Options page for sensitivity, button behavior, and preferred window width.
-- Keyboard shortcut command, default `Alt+G`.
+## **📂 שלב 2: חילוץ קובץ ה-ZIP**
 
-## Load in Chrome
+לפני שמעלים את התוסף לכרום, צריך "לפתוח" את התיקייה הדחוסה:
 
-1. Open `chrome://extensions`.
-2. Enable Developer mode.
-3. Click Load unpacked.
-4. Select this folder.
+1. עברו לתיקיית ההורדות במחשב שלכם ומצאו את קובץ ה-ZIP שירד.  
+2. לחצו עליו עם המקש הימני בעכבר (Right Click).  
+3. בחרו באפשרות **`Extract All...`** (או "חלץ הכל...") ולאחר מכן לחצו על **`Extract`** (חלץ).  
+4. כעת תיווצר לכם תיקייה רגילה (לא דחוסה) עם כל קבצי התוסף. תזכרו איפה היא נמצאת\! 🧭
 
-## Notes
+## **🌐 שלב 3: העלאת התוסף לדפדפן כרום (Chrome)**
 
-The popup opens directly at `https://gemini.google.com/u/0/app`. If Chrome blocks content scripts on internal pages such as `chrome://extensions`, test the shake gesture on a regular website.
+1. פתחו את דפדפן Google Chrome.  
+2. בשורת הכתובת (איפה שכותבים אתרי אינטרנט), העתיקו והדביקו את הכתובת הבאה ולחצו Enter: `chrome://extensions/` *(לחלופין: לחצו על שלוש הנקודות בצד הדפדפן \-\> **Extensions (תוספים)** \-\> **Manage Extensions (ניהול תוספים)**).*  
+3. בפינה הימנית העליונה (או השמאלית, תלוי בשפת הדפדפן), הפעילו את המתג של **`Developer mode` (מצב מפתח)**. 🧑‍💻  
+4. ברגע שהפעלתם את מצב המפתח, יופיעו כפתורים חדשים. לחצו על הכפתור **`Load unpacked` (טען תוסף שלא נארז)**.  
+5. בחלון שנקפץ, ניווטו אל התיקייה הרגילה שחילצתם בשלב 2 (לא קובץ ה-ZIP\!), בחרו אותה ולחצו על **`Select Folder` (בחר תיקייה)**.
+
+🎉 **זהו\! התוסף מותקן ומוכן לעבודה\!** 🚀 תוכלו לראות אותו מופיע ברשימת התוספים שלכם. כדי שיהיה לכם נוח להשתמש בו, לחצו על אייקון הפאזל 🧩 בסרגל הכלים של כרום ולחצו על אייקון הסיכה (Pin) ליד התוסף כדי לנעוץ אותו קרוב לעין.
+
+תהנו\! 🙌
+
