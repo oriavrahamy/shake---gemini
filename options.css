@@ -1,0 +1,159 @@
+:root {
+  color-scheme: light dark;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8fafd;
+  color: #202124;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 680px;
+  padding: 32px 20px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.gemini-logo {
+  align-items: center;
+  background: linear-gradient(135deg, #4285f4 0%, #7c4dff 42%, #ec407a 74%, #fbbc04 100%);
+  border-radius: 999px;
+  color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 22px;
+  font-weight: 700;
+  height: 52px;
+  justify-content: center;
+  width: 52px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+header p,
+.note p,
+.status {
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+form,
+.note {
+  background: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+label {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+label span {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input[type="range"] {
+  accent-color: #1a73e8;
+  width: 100%;
+}
+
+output {
+  color: #3c4043;
+  font-size: 13px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font: 700 14px/1 Arial, sans-serif;
+  padding: 11px 16px;
+}
+
+button[type="submit"] {
+  background: #1a73e8;
+  color: #ffffff;
+}
+
+button[type="button"] {
+  background: #e8f0fe;
+  color: #174ea6;
+}
+
+.status {
+  min-height: 21px;
+  padding-top: 14px;
+}
+
+.note {
+  margin-top: 16px;
+}
+
+.note h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111315;
+    color: #e8eaed;
+  }
+
+  form,
+  .note {
+    background: #202124;
+    border-color: #3c4043;
+  }
+
+  header p,
+  .note p,
+  .status {
+    color: #bdc1c6;
+  }
+
+  output {
+    color: #e8eaed;
+  }
+
+  button[type="submit"] {
+    background: #8ab4f8;
+    color: #111315;
+  }
+
+  button[type="button"] {
+    background: #263850;
+    color: #d2e3fc;
+  }
+}

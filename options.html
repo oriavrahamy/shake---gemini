@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>אפשרויות Shake & Gemini</title>
+    <link rel="stylesheet" href="options.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="gemini-logo" aria-hidden="true">G</div>
+        <div>
+          <h1>Shake & Gemini</h1>
+          <p>כוונון התנהגות הניענוע וחלון Gemini.</p>
+        </div>
+      </header>
+
+      <form id="options-form">
+        <label>
+          <span>רגישות ניענוע</span>
+          <input id="sensitivity" name="sensitivity" type="range" min="5" max="80" step="5">
+          <output id="sensitivity-output"></output>
+        </label>
+
+        <label>
+          <span>רוחב חלון Gemini בתצוגה מפוצלת</span>
+          <input id="popupWidthPercent" name="popupWidthPercent" type="range" min="22" max="45" step="1">
+          <output id="popup-width-output"></output>
+        </label>
+
+        <label>
+          <span>מרחק בליעה בתנועה מהירה</span>
+          <input id="maxPointerDistancePx" name="maxPointerDistancePx" type="range" min="160" max="520" step="10">
+          <output id="distance-output"></output>
+        </label>
+
+        <div class="actions">
+          <button type="submit">שמור</button>
+          <button type="button" id="restore-defaults">איפוס</button>
+        </div>
+
+        <p class="status" id="status" role="status"></p>
+      </form>
+
+      <section class="note">
+        <h2>קיצור מקלדת</h2>
+        <p>ברירת המחדל היא Alt+G. אפשר לשנות בכתובת chrome://extensions/shortcuts.</p>
+      </section>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>
